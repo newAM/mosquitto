@@ -59,6 +59,7 @@ Broker:
   before trying to use it in a live broker. Closes #2521.
 - Print messages in mosquitto_passwd when adding/updating passwords.
   Closes #2544.
+- Enable TLS v1.3 when using TLS-PSK.
 
 Plugins / plugin interface:
 - Add persist-sqlite plugin.
@@ -132,6 +133,7 @@ Client library:
   `%u` patterns for client id / username substitution.
 - Performance: reduce memory allocations when sending packets.
 - Reintroduce threading support for Windows. Closes #1509.
+- Enable TLS v1.3 when using TLS-PSK.
 
 Clients:
 - Add `-W` timeout support to Windows.
