@@ -69,4 +69,4 @@ if(WITH_STATIC_LIBRARIES)
 	)
 endif()
 
-install(FILES mosquittopp.h DESTINATION "${CMAKE_INSTALL_INCLUDEDIR}")
+install(FILES ../../include/mosquittopp.h DESTINATION "${CMAKE_INSTALL_INCLUDEDIR}")
